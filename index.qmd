@@ -1,46 +1,40 @@
 ---
-title: "Making shareable documents with Quarto"
-subtitle: "Create open-source tutorials, onboarding docs, and much more"
+title: "Code ToolKit"
+subtitle: "Provide open-source tutorials on data visualization"
 ---
 
 ## Welcome {#welcome}
 
-It's possible to create beautiful documentation to share online with [Quarto](https://quarto.org) that auto-updates with [GitHub](http://github.com). This is very new and incredibly cool. This tutorial is an example of a quarto website --- it is a really powerful way to create and share your work. You can communicate about science using the same reproducible workflow you and/or your colleagues use for analyses, whether or not you write code.
+Data visualization is a critical tool in biomedical research, enabling intuitive interpretation of complex datasets to advance scientific discovery and inform clinical decisions. The R programming language, with its powerful statistical capabilities and extensive package ecosystem, has become a cornerstone for creating high-quality visualizations. However, the vast and ever-evolving landscape of R plotting packages often poses challenges for researchers, who must select appropriate methods and customize visualizations to meet specific research needs. This process demands advanced coding expertise, interdisciplinary collaboration, and significant time investment, which can hinder progress and impact the accuracy of experimental outcomes.
 
-Creating websites with Quarto can be done without knowing R, Python or HTML, CSS, etc, and that's where we'll start. However, Quarto integrates with these tools so you can make your websites as complex and beautiful as you like as you see examples and reuse and remix from others in the open community. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout.
+To address these challenges, we developed **Code ToolKit**, a comprehensive, community-driven platform that integrates a curated repository of visualization codes, advanced tutorials, and collaborative forums. By streamlining access to resources and promoting knowledge exchange, CodeToolKit aims to enhance biomedical researchers’ data analysis capabilities and facilitate the clinical translation of research findings.
 
-## What is Quarto?
+## What is Code ToolKit?
 
-Quarto helps you have your ideas and your code in one place, and present it in a beautiful way. 
+CodeToolKit brings together powerful visualization tools, curated code, and collaborative features, enabling researchers to streamline data analysis and present their findings in a clear and impactful way.
 
-**Quarto unifies and extends the RMarkdown ecosystem** - it unifies by combining the functionality of R Markdown, bookdown, distill, xaringian, etc into a single consistent system. And it extends in several ways: all features are possible beyond R too, including Python and Javascript. It also has more “guardrails”: accessibility and inclusion are centered in the design. Quarto is for people who love RMarkdown, and it's for people who have never used RMarkdown. 
- 
+-   **Comprehensive Visualization Repository**: CodeToolKit consolidates visualization codes from diverse sources, including conventional graphgallery charts and innovative contributions from global experts, providing a state-of-the-art toolkit for biomedical research.
 
-The ability for Quarto to streamline collaboration has been so cool and important for our [NASA Openscapes](https://nasa-openscapes.github.io/) project. Quarto has been a common place for us to collaborate - across R and Python languages and coding expertise. 
+-   **Versatile Chart Options**: The repository features R code implementations for a wide range of visualizations—variable distributions, correlation analyses, ranking plots, and interactive charts—meeting diverse data analysis needs.
 
-## What is this tutorial?
+-   **Real-World Applications**: Leveraging both native R datasets and authentic biomedical data examples, CodeToolKit enables intuitive understanding and application of visualization techniques in real-world research contexts, accelerating clinical translation.
 
-This is a 1-hour tutorial that can be used to teach or as self-paced learning. 
+-   **Tailored for Biomedical Data**: Includes preprocessing algorithms, annotated plotting codes, and specialized methodologies to accommodate the complexities of biomedical datasets, making advanced visualization accessible even to users with limited programming expertise.
 
-We introduce Quarto by exploring this tutorial website, and practicing the basic Quarto workflow using different tools (GitHub browser, RStudio, and Jupyter) for editing your website.
+-   **Integrated Statistical Analysis**: Combines statistical analysis functions with visualization modules, ensuring rigorous, visually compelling outputs that bolster research reliability and advance evidence-based medicine.
 
-We'll start off from the browser so you don't need to install any additional software, however this approach is very limited and you will soon outgrow its capabilities. If you don't already have a workflow to edit files and sync to GitHub from your computer, I recommend RStudio. You don't need to know R to use RStudio, and it has powerful editor features that make for happy workflows.
+-   **Collaborative and Open Innovation**: Actively invites contributions from biomedical experts to refine features and address evolving data visualization challenges through collective expertise.
 
-[Quarto.org](https://quarto.org) is the go-to place for full documentation and more tutorials! 
+-   **Multi-Platform Accessibility**: Offers resources through an open-source GitHub repository with interactive forums and a WeChat official account for tutorials and updates, fostering knowledge sharing and collaboration.
 
-## Example Quarto sites
+-   **Driving Research Excellence**: Empowers researchers to elevate their data visualization skills, improve methodological standards, and advance precision medicine and personalized therapies.
 
-A few Quarto websites from Openscapes - so far we have been using Quarto for documentation using Quarto and Markdown files and Jupyter Notebooks.
-
--   [Champions Lessons Series](https://openscapes.github.io/series)
--   [Openscapes Approach Guide](https://openscapes.github.io/approach-guide/)
--   [NASA Earthdata Cloud Cookbook](https://nasa-openscapes.github.io/earthdata-cloud-cookbook/)
--   [2021 NASA Cloud Hackathon](https://nasa-openscapes.github.io/2021-Cloud-Hackathon/)
--   [Faylab Lab Manual](https://thefaylab.github.io/lab-manual/)
--   [A Quarto tip a day](https://mine-cetinkaya-rundel.github.io/quarto-tip-a-day/), by Mine Çetinkaya-Rundel
+-   **Future Vision**: Committed to expanding international collaborations and delivering innovative, refined solutions to address the growing complexity of biomedical data visualization and analysis.
 
 ## About
 
-[Openscapes](https://openscapes.org) is about better science for future us. We help researchers reimagine data analysis, develop modern skills that are of immediate value to them, and cultivate collaborative and inclusive research teams as part of the broader global open movement.
+Peng lab has a long-standing interest in cancer biomedical research and bioinformatics. We recently developed several other Shiny web tools focusing on solving various scientific questions.
 
-We're developing this tutorial to help folks with different levels of technical skills use [Quarto](https://quarto.org) for documentation and tutorial building. This tutorial was originally created for several different audiences: [NASA-Openscapes](https://nasa-openscapes.github.io) researcher support engineers using Python, communications directors at organizations promoting open science who do not identify as coders, and fisheries scientists curious about transitioning from RMarkdown. We're hoping it's useful to folks with backgrounds as wide as these; if you find it useful or have suggestions for improvement, please let us know by clicking "Edit this page" or "Report an issue" at the upper right side of any page.
+::: callout-note
+If you find it useful or have suggestions for improvement, please let us know by clicking "Edit this page" or "Report an issue" at the upper right side of any page.
+:::

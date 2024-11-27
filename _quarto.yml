@@ -3,29 +3,26 @@ project:
   
 website: 
   page-navigation: true
-  title: "Making sharable documents with Quarto" 
-  site-url: "https://openscapes.github.io/quarto-website-tutorial" 
-  repo-url: https://github.com/openscapes/quarto-website-tutorial 
+  title: "Code ToolKit" 
+  site-url: "https://martinahyang.github.io/Toolkit/" 
+  repo-url: https://github.com/MartinaHYang/Toolkit 
   repo-actions: [edit, issue]
   
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: "&copy; CC-By Openscapes, 2024"
+    right: "This page is built with [Quarto](https://quarto.org/)."
+    left: "&copy; CC-By Peng Lab, 2024. All rights reserved."
     
   sidebar:
-    logo: "images/openscapes_hex.png"
+    logo: "images/CodeToolKit_logo.png"
     pinned: true
     align: center
     tools: 
-      - icon: globe
-        href: https://openscapes.org
-        text: "Openscapes.org"
       - icon: github
-        href: https://github.com/openscapes/quarto-website-tutorial
-        text: "Quarto website tutorial"
+        href: https://github.com/MartinaHYang/Toolkit
+        text: "Code ToolKit website tutorial"
       - icon: twitter
-        href: https://twitter.com/openscapes
-        text: "Openscapes Twitter"         
+        href: https://x.com/PengL_Robin
+        text: "Peng Lab Twitter"         
 
     style: "docked"
     search: true
@@ -33,15 +30,13 @@ website:
     contents:
       - href: index.qmd
         text: Welcome
-      - explore.qmd
-      - section: quarto-workflows/index.qmd
+      - href: Graph-Gallery.qmd
+        text: Graph Gallery
+      - section: Distribution-Gallery_sec/index.qmd
         contents: 
-          - quarto-workflows/browser.md
-          - quarto-workflows/rstudio.qmd
-          - quarto-workflows/jupyter.md 
-      - learning-more.qmd
-      - href: transition-from-rmarkdown.qmd
-        text: Transition from Rmd
+          - Distribution-Gallery_sec/histogram.qmd
+      - href: About.qmd
+        text: About Us
 
 
 format:
