@@ -1,35 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/index.html</loc>
-    <lastmod>2024-11-17T23:43:20.585Z</lastmod>
+    <loc>https://martinahyang.github.io/Toolkit/About.html</loc>
+    <lastmod>2024-11-27T02:54:57.919Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/jupyter.html</loc>
-    <lastmod>2024-11-17T23:43:20.621Z</lastmod>
+    <loc>https://martinahyang.github.io/Toolkit/Distribution-Gallery_sec/histogram.html</loc>
+    <lastmod>2024-11-27T02:54:57.919Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/browser.html</loc>
-    <lastmod>2024-11-17T23:43:20.589Z</lastmod>
+    <loc>https://martinahyang.github.io/Toolkit/Graph-Gallery.html</loc>
+    <lastmod>2024-11-27T02:54:57.923Z</lastmod>
   </url>
   <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/transition-from-rmarkdown.html</loc>
-    <lastmod>2024-11-17T23:43:20.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/learning-more.html</loc>
-    <lastmod>2024-11-17T23:43:20.585Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/rstudio.html</loc>
-    <lastmod>2024-11-17T23:43:20.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/quarto-workflows/index.html</loc>
-    <lastmod>2024-11-17T23:43:20.621Z</lastmod>
-  </url>
-  <url>
-    <loc>https://openscapes.github.io/quarto-website-tutorial/explore.html</loc>
-    <lastmod>2024-11-17T23:43:20.561Z</lastmod>
+    <loc>https://martinahyang.github.io/Toolkit/index.html</loc>
+    <lastmod>2024-11-27T02:54:57.947Z</lastmod>
   </url>
 </urlset>
