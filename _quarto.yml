@@ -33,14 +33,19 @@ website:
     collapse-level: 1
     contents:
       - text: "Welcome"
+        text-zh-cn: "简介"
         href: index.qmd
       - text: "Graph Gallery"
+        text-zh-cn: "可视化一览"
         href: Graph-Gallery.qmd
       - section: "Distribution"
+        section-zh-cn: "数据分布可视化"
         contents: 
           - text: "Histogram"
+            text-zh-cn: "直方图"
             href: Distribution/Histogram.qmd
       - text: "About Us"
+        text-zh-cn: "关于我们"
         href: About.qmd
         
 
@@ -69,3 +74,15 @@ comments:
     input-position: "top"
     theme: "preferred_color_scheme"
     loading: "lazy"
+
+babelquarto:
+  languagelinks: sidebar
+  languagecodes:
+  - name: zh-cn
+    text: "简体中文"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['zh-cn']
+title-zh-cn: 生物医学可视化百科
+lang: en
