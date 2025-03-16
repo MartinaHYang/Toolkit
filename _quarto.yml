@@ -2,48 +2,53 @@ project:
   type: website
   
 website: 
+  favicon: images/favicon.ico
   page-navigation: true
-  title: "Code ToolKit" 
+  title: "A Biomedical Visualization Atlas" 
   site-url: "https://martinahyang.github.io/Toolkit/" 
-  repo-url: https://github.com/MartinaHYang/Toolkit 
-  repo-actions: [edit, issue]
+  repo-url: https://github.com/MartinaHYang/Toolkit
+  repo-actions:
+    - source
+    - issue
   
   page-footer:
     right: "This page is built with [Quarto](https://quarto.org/)."
     left: "&copy; CC-By Peng Lab, 2024. All rights reserved."
     
   sidebar:
-    logo: "images/CodeToolKit_logo.png"
+    logo: "images/Bizard_logo.png"
     pinned: true
     align: center
     tools: 
       - icon: github
-        href: https://github.com/MartinaHYang/Toolkit
-        text: "Code ToolKit website tutorial"
+        href: https://github.com/DrRobinLuo/Bizard
+        text: "Bizard GitHub website"
       - icon: twitter
         href: https://x.com/PengL_Robin
-        text: "Peng Lab Twitter"         
+        text: "Peng Lab Twitter"
+      - icon: translate       
 
     style: "docked"
     search: true
     collapse-level: 1
     contents:
-      - href: index.qmd
-        text: Welcome
-      - href: Graph-Gallery.qmd
-        text: Graph Gallery
-      - section: Distribution-Gallery_sec/index.qmd
+      - text: "Welcome"
+        href: index.qmd
+      - text: "Graph Gallery"
+        href: Graph-Gallery.qmd
+      - section: "Distribution"
         contents: 
-          - Distribution-Gallery_sec/histogram.qmd
-      - href: About.qmd
-        text: About Us
+          - text: "Histogram"
+            href: Distribution/Histogram.qmd
+      - text: "About Us"
+        href: About.qmd
+        
 
 
 format:
   html:
     theme:
       light: [cosmo, theme.scss] # from https://github.com/sta210-s22/website/blob/main/_quarto.yml
-      dark: [cosmo, theme-dark.scss]
     code-copy: true
     code-overflow: wrap
     toc: true
@@ -52,5 +57,15 @@ format:
 filters:
   - include-files.lua
   - quarto
-
   
+comments:
+  giscus:
+    repo: "DrRobinLuo/Bizard"
+    repo-id: "R_kgDONWVY7Q"
+    category: "Announcements"
+    category-id: "DIC_kwDONWVY7c4ClcJT"
+    mapping: "pathname"
+    reactions-enabled: true
+    input-position: "top"
+    theme: "preferred_color_scheme"
+    loading: "lazy"
